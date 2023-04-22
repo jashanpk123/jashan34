@@ -1,0 +1,27 @@
+/* CSS stylesheet */
+body {
+    text-align: center;
+    background-color: lightgray;
+  }
+  img {
+    width: 100px;
+  }
+  h1 {
+    width: 30%;
+    background-color: blue;
+    margin: 0 auto;
+  }
+  p {
+    width: 40%;
+    padding: 20px;
+  }
+  p:nth-of-type(1)
+  {
+    margin:0 auto;
+  }
+  p:nth-of-type(2)
+  {
+    display:inline-block;
+    width:60%;
+    text-align:left;
+  }
